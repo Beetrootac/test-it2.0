@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "AgoraSansProBold";
+    src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot");
+    src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProBold/AgoraSansProBold.woff") format("woff"),
+    url("../fonts/AgoraSansProBold/AgoraSansProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AgoraSansProLight";
+    src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot");
+    src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProLight/AgoraSansProLight.woff") format("woff"),
+    url("../fonts/AgoraSansProLight/AgoraSansProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AgoraSansProUltraBlack";
+    src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot");
+    src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.woff") format("woff"),
+    url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

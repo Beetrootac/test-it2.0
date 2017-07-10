@@ -1,0 +1,220 @@
+.programs {
+  display: block;
+  height: 1154px;
+  max-height: 2308px;
+  min-width: 420px;
+  width: 100%;
+  background: #d1d2d4;
+  &__lost-weight {
+    display: block;
+    min-width: 600px;
+    max-width: 1272px;
+    height: 1154px;
+    float: left;
+    background: url("../images/main-woman.png") 80%, no-repeat;
+    background-size: cover;
+  }
+  &__table-container {
+    display: block;
+    padding-right: 20px;
+    width: 700px;
+    height: 1144px;
+    margin-top: -370px;
+  }
+  &__name-program {
+    display: block;
+    width: 594px;
+    height: 52px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0177c8;
+    min-width: 300px;
+    transform: rotate(270deg);
+    margin-left: -250px;
+    margin-top: 710px;
+    position: relative;
+    z-index: 0;
+  }
+  &__table-header {
+    display: block;
+    width: 473px;
+    height: 27px;
+    color: #000000;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    float: right;
+    clear: right;
+  }
+  @media all and (max-width: 540px) {
+    &__table-header {
+      margin-right: 70px;
+    }
+  }
+  &__table {
+    display: block;
+    clear: both;
+    float: right;
+    min-width: 300px;
+    width: 585px;
+    height: 80px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    border-collapse: separate;
+    text-align: center;
+    td {
+      width: 198px;
+      min-width: 100px;
+      height: 38px;
+    }
+    @media all and (max-width: 540px) {
+      td {
+        width: 100px;
+      }
+    }
+    td:nth-child(2) {
+      border-left: 2px solid #000000;
+      border-right: 2px solid #000000;
+    }
+  }
+
+  &__table-borders td {
+    border-bottom: 2px solid black;
+  }
+  &__weight-loss-declaration {
+    clear: both;
+    float: right;
+    display: block;
+    width: 612px;
+    height: 67px;
+    color: #000000;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  @media all and (max-width: 540px) {
+    &__table {
+      width: 303px;
+      float: none;
+      margin-left: 150px;
+    }
+    &__weight-loss-declaration {
+      width: 400px;
+      height: auto;
+      font-size: 16px;
+      float: none;
+      margin-left: 100px;
+    }
+  }
+  &__buttons-container {
+    display: block;
+    width: 470px;
+    height: 52px;
+    float: right;
+    clear: both;
+    position: relative;
+    z-index: 1;
+  }
+  &__info-button {
+    width: 201px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #f47521;
+    border: none;
+    border-bottom: 2px solid #823400;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
+    color: #823400;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    &:first-child {
+      margin-right: 19px;
+      margin-left: -35px;
+    }
+    &:hover {
+      background-image: linear-gradient(#ff9945, #f41500);
+      color: white;
+      transition: 0.9s;
+    }
+  }
+  @media all and (max-width: 540px) {
+    &__buttons-container {
+      width: 303px;
+      float: none;
+      margin-left: 150px;
+    }
+    &__info-button {
+      width: 150px;
+    }
+  }
+  &__balanced-diet {
+    display: block;
+    float: left;
+    background-color: #696969;
+    width: 115px;
+    height: 1154px;
+  }
+  &__yoga {
+    width: 115px;
+    height: 1287px;
+    opacity: 0.5;
+    margin-top: -133px;
+  }
+  &__diet-topic {
+    color: white;
+    display: block;
+    width: 1043px;
+    height: 52px;
+    transform: rotate(270deg);
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -660px;
+    margin-left: -460px;
+  }
+  &__for-sports {
+    display: block;
+    float: left;
+    background: #9b9b9b url("../images/main-man2layers.png") 100% no-repeat;
+    background-size: cover;
+    width: 533px;
+    min-width: 222px;
+    max-width: 592px;
+    height: 1154px;
+  }
+  @media all and (max-width: 540px) {
+    &__for-sports {
+      float: left;
+      width: 400px;
+    }
+  }
+  &__man {
+    width: 533px;
+    min-width: 222px;
+    height: 1154px;
+    opacity: 0.5;
+  }
+  &__sport-topic {
+    color: #ffffff;
+    display: block;
+    width: 694px;
+    height: 52px;
+    transform: rotate(270deg);
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 672px;
+    margin-left: -280px;
+    position: relative;
+    z-index: 3;
+  }
+}

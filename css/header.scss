@@ -1,0 +1,260 @@
+.contact {
+  display: block;
+  min-width: 450px;
+  height: 51px;
+  background-color: #ffffff;
+  &__logo {
+    width: 287px;
+    height: 67px;
+    float: left;
+    margin-left: 22%;
+    margin-right: 16%;
+  }
+  @media all and (max-width: 1250px) {
+    &__logo {
+      margin-right: 1%;
+      margin-left: 3%;
+    }
+  }
+  @media all and (max-width: 810px) {
+    &__logo {
+      display: none;
+    }
+  }
+  &__contact-number {
+    width: 320px;
+    height: 27px;
+    color: #0175c5;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+    margin-top: 12px;
+  }
+  &__button-back-call {
+    width: 153px;
+    height: 39px;
+    border-radius: 7px;
+    background-color: #f47521;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
+    color: #823400;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+    border: none;
+    border-bottom: 2px solid #823400;
+    margin-top: 12px;
+    &:hover {
+      background-color: #00ff80;
+      transition: 0.8s;
+    }
+  }
+}
+
+header {
+  display: block;
+  height: 1001px;
+  min-width: 540px;
+  background: url("../images/header-bg-shadow.webp") 100%, no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.navigation {
+  display: block;
+  min-width: 540px;
+  height: 41px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  text-align: center;
+  &__menu-item {
+    display: inline-block;
+    padding-top: 11px;
+  }
+  @media all and (max-width: 1190px) {
+    &__menu-item {
+      padding-top: 5px;
+      text-align: left;
+    }
+  }
+  &__menu-link {
+    color: #000000;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    &:hover {
+      color: #0c37ff;
+      transition: 0.8s;
+      border-bottom: 2px solid #39ff39;
+    }
+    &--margin {
+      margin-left: 51px;
+      margin-right: 55px;
+      text-decoration: none;
+      color: #000000;
+      font-family: "PF Agora Sans Pro", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      &:hover {
+        color: #0c37ff;
+        transition: 0.8s;
+        border-bottom: 2px solid #39ff39;
+      }
+    }
+    @media all and (max-width: 720px) {
+      &--margin {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+    }
+  }
+  @media all and (max-width: 710px) {
+    &__menu-link {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 1190px) {
+  .navigation {
+    text-align: left;
+    height: 100px;
+  }
+}
+
+.delivery {
+  color: #ffffff;
+  font-family: "PF Agora Sans Pro", sans-serif;
+  font-weight: 900;
+  &__health-food {
+    font-size: 28px;
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 91px;
+  }
+  &__change-your-food {
+    width: 942px;
+    height: 130px;
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media all and (max-width: 540px) {
+    &__change-your-food {
+      width: 520px;
+      height: auto;
+      font-size: 32px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.offer {
+  display: block;
+  width: 485px;
+  height: 485px;
+  border-radius: 50%;
+  background-color: #0177c8;
+  float: right;
+  margin-top: -43px;
+  margin-right: 473px;
+  &__with-sale {
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    line-height: 36px;
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__description {
+    height: 80px;
+    width: 413px;
+    color: #ffffff;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: -20px;
+  }
+  &__price {
+    width: 150px;
+    height: 48px;
+    color: #ffffff;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-top: -15px;
+    display: inline-block;
+  }
+  &__crossout-line {
+    background: url("../images/price-bg.svg") 80%, no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+  }
+  &__leave-request {
+    width: 201px;
+    height: 51px;
+    border-radius: 9px;
+    background-color: #f47521;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 44px;
+    text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
+    color: #823400;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid #823400;
+    &:hover {
+      background-image: linear-gradient(#ff9945, #f41500);
+      color: white;
+      transition: 0.9s;
+    }
+  }
+}
+
+@media all and (max-width: 540px) {
+  .offer {
+    float: none;
+    margin-left: 8px;
+  }
+}
+
+.food-program-container {
+  display: inline-block;
+  min-width: 540px;
+  width: 100%;
+  height: 143px;
+  background-color: #01b389;
+  margin-top: 104px;
+  border-top: 3px ridge #8CDDCA;
+  border-bottom: 3px groove #00765A;
+  z-index: 1;
+  position: relative;
+}
+
+.food-program-topic {
+  color: #ffffff;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media all and (max-width: 1192px) {
+  .food-program-container {
+    margin-top: 40px;
+  }
+  .food-program-topic {
+    font-size: 28px;
+  }
+}

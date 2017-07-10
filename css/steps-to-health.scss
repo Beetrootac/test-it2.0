@@ -1,0 +1,138 @@
+.contact-us {
+  clear: both;
+  display: block;
+  min-width: 540px;
+  width: 100%;
+  height: 230px;
+  background-color: #01b389;
+  border-top: 3px ridge #8CDDCA;
+  border-bottom: 3px groove #00765A;
+  font-family: "PF Agora Sans Pro", sans-serif;
+
+  &__make-a-step {
+    display: block;
+    width: 880px;
+    height: 35px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 43px 0 35px 100px;
+  }
+  &__submit-request {
+    display: block;
+    width: 880px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  &__send-request {
+    display: block;
+    width: 168px;
+    height: 51px;
+    border-radius: 9px;
+    background-color: #f47521;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
+    color: #823400;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid #823400;
+    &:hover {
+      background-image: linear-gradient(#ff9945, #f41500);
+      color: white;
+      transition: 0.9s;
+    }
+  }
+  @media all and (max-width: 540px) {
+    &__make-a-step {
+      font-size: 20px;
+      margin-left: -50px;
+    }
+    &__submit-request {
+      width: 450px;
+      height: auto;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+}
+
+.steps-to-health {
+  clear: both;
+  display: block;
+  height: auto;
+  min-width: 540px;
+  max-width: 100%;
+  &__topic {
+    width: 1215px;
+    height: 53px;
+    color: #191c31;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 111px;
+    padding-bottom: 75px;
+  }
+  &__all-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 540px;
+  }
+  @media all and (max-width: 540px) {
+    &__topic {
+      width: 300px;
+      text-align: left;
+      font-size: 28px;
+      padding-top: 0;
+      margin-left: 90px;
+    }
+    &__all-steps {
+      margin-left: -70px;
+    }
+  }
+  &__steps-container {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 300px;
+  }
+  &__step-border {
+    display: block;
+    border-radius: 50%;
+    width: 198px;
+    height: 198px;
+    background-color: #0177c8;
+    margin: 0 12px;
+  }
+  &__item {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 48px;
+  }
+  &__margin-phone {
+    padding-top: 8px;
+  }
+  &__margin-good-feeling {
+    padding-top: 10px;
+  }
+  &__items-name {
+    color: #191c31;
+    font-family: "PF Agora Sans Pro", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__indent-text {
+    padding-top: 40px;
+  }
+}
