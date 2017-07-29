@@ -9,6 +9,7 @@
     display: block;
     min-width: 600px;
     max-width: 1272px;
+    width: 993px;
     height: 1154px;
     float: left;
     background: url("../images/main-woman.png") 80%, no-repeat;
@@ -16,21 +17,21 @@
   }
   &__table-container {
     display: block;
-    padding-right: 20px;
+    padding-right: 70px;
+    float: right;
     width: 700px;
     height: 1144px;
-    margin-top: -370px;
+    margin-top: -500px;
   }
-  &__name-program {
+  &__lost-weight-topic {
     display: block;
-    width: 594px;
+    min-width: 300px;
+    max-width: 610px;
     height: 52px;
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 60px;
     text-transform: uppercase;
     color: #0177c8;
-    min-width: 300px;
     transform: rotate(270deg);
     margin-left: -250px;
     margin-top: 710px;
@@ -39,14 +40,16 @@
   }
   &__table-header {
     display: block;
-    width: 473px;
-    height: 27px;
+    width: 580px;
+    height: 42px;
     color: #000000;
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    float: right;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 40px;
     clear: right;
+    text-align: center;
+    /*padding-left: 80px;
+    padding-bottom: 40px;*/
+    padding: 60px 0 40px 80px ;
   }
   @media all and (max-width: 540px) {
     &__table-header {
@@ -60,6 +63,8 @@
     min-width: 300px;
     width: 585px;
     height: 80px;
+    font-family: "Myriad Pro, Regular", sans-serif;
+    font-size: 20px;
     border: 2px solid #000000;
     border-radius: 14px;
     border-collapse: separate;
@@ -87,13 +92,11 @@
     clear: both;
     float: right;
     display: block;
-    width: 612px;
+    width: 617px;
     height: 67px;
     color: #000000;
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: italic;
+    font-family: "Myriad Pro, Italic", sans-serif;
+    font-size: 20px;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -131,9 +134,9 @@
     text-align: center;
     text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
     color: #823400;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Myriad Pro, Regular", sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    outline: none;
     &:first-child {
       margin-right: 19px;
       margin-left: -35px;
@@ -170,15 +173,14 @@
   &__diet-topic {
     color: white;
     display: block;
-    width: 1043px;
+    width: 1143px;
     height: 52px;
     transform: rotate(270deg);
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-top: -660px;
-    margin-left: -460px;
+    margin-top: -680px;
+    margin-left: -530px;
   }
   &__for-sports {
     display: block;
@@ -187,7 +189,7 @@
     background-size: cover;
     width: 533px;
     min-width: 222px;
-    max-width: 592px;
+    //max-width: 592px;
     height: 1154px;
   }
   @media all and (max-width: 540px) {
@@ -208,11 +210,10 @@
     width: 694px;
     height: 52px;
     transform: rotate(270deg);
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-top: 672px;
+    margin-top: 702px;
     margin-left: -280px;
     position: relative;
     z-index: 3;

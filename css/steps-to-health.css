@@ -5,42 +5,43 @@
   width: 100%;
   height: 230px;
   background-color: #01b389;
-  border-top: 3px ridge #8CDDCA;
-  border-bottom: 3px groove #00765A;
-  font-family: "PF Agora Sans Pro", sans-serif; }
+  box-shadow: 0px 11px 14px -9px #ffffff inset, 0px -12px 14px -9px #000000 inset; }
   .contact-us__make-a-step {
     display: block;
-    width: 880px;
-    height: 35px;
+    width: 100%;
+    height: 42px;
     color: #ffffff;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: "PF Agora Sans Pro, Light", sans-serif;
+    font-size: 40px;
+    text-align: center;
     margin: 0 auto;
-    padding: 43px 0 35px 100px; }
+    padding-top: 43px; }
   .contact-us__submit-request {
     display: block;
-    width: 880px;
-    height: 40px;
+    width: 100%;
+    height: 20px;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
+    font-size: 20px;
     margin: 0 auto;
-    padding-bottom: 10px; }
+    text-align: center;
+    padding-top: 44px; }
+  .contact-us__button-block {
+    padding-top: 40px;
+    text-align: center; }
   .contact-us__send-request {
-    display: block;
-    width: 168px;
+    width: 184px;
     height: 51px;
     border-radius: 9px;
     background-color: #f47521;
     text-align: center;
-    margin: 0 auto;
     text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
     color: #823400;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
     font-size: 20px;
-    font-weight: 700;
     border: none;
-    border-bottom: 2px solid #823400; }
+    border-bottom: 2px solid #823400;
+    outline: none; }
     .contact-us__send-request:hover {
       background-image: linear-gradient(#ff9945, #f41500);
       color: white;
@@ -58,24 +59,25 @@
 .steps-to-health {
   clear: both;
   display: block;
-  height: auto;
+  height: 584px;
+  max-height: 1000px;
   min-width: 540px;
   max-width: 100%; }
   .steps-to-health__topic {
-    width: 1215px;
-    height: 53px;
+    display: block;
+    width: 1240px;
+    height: 60px;
     color: #191c31;
-    font-family: "PF Agora Sans Pro", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 111px;
-    padding-bottom: 75px; }
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
+    font-size: 60px;
+    margin: 0 auto;
+    padding-top: 111px; }
   .steps-to-health__all-steps {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    min-width: 540px; }
+    min-width: 540px;
+    padding-top: 120px; }
   @media all and (max-width: 540px) {
     .steps-to-health__topic {
       width: 300px;
@@ -101,16 +103,16 @@
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding-top: 48px; }
+    padding-top: 48px;
+    opacity: 0.3; }
   .steps-to-health__margin-phone {
     padding-top: 8px; }
   .steps-to-health__margin-good-feeling {
     padding-top: 10px; }
   .steps-to-health__items-name {
     color: #191c31;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Light", sans-serif;
     font-size: 22px;
-    font-weight: 300;
     text-align: center; }
   .steps-to-health__indent-text {
     padding-top: 40px; }

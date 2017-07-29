@@ -1,6 +1,7 @@
 .contact {
   display: block;
   min-width: 450px;
+  width: 100%;
   height: 51px;
   background-color: #ffffff;
   &__logo {
@@ -22,12 +23,11 @@
     }
   }
   &__contact-number {
-    width: 320px;
+    width: 340px;
     height: 27px;
     color: #0175c5;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
     font-size: 40px;
-    font-weight: 700;
     float: left;
     margin-top: 12px;
   }
@@ -39,13 +39,14 @@
     text-align: center;
     text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
     color: #823400;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
     font-size: 15px;
-    font-weight: 700;
     line-height: 12px;
     border: none;
     border-bottom: 2px solid #823400;
     margin-top: 12px;
+    outline: none;
+
     &:hover {
       background-color: #00ff80;
       transition: 0.8s;
@@ -57,9 +58,11 @@ header {
   display: block;
   height: 1001px;
   min-width: 540px;
-  background: url("../images/header-bg-shadow.webp") 100%, no-repeat;
+  background: url("../images/header-background.webp")80%, no-repeat;
+  //background-position: center top -50px;
   background-size: cover;
   z-index: 1;
+
 }
 
 .navigation {
@@ -81,9 +84,8 @@ header {
   }
   &__menu-link {
     color: #000000;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Light", sans-serif;
     font-size: 20px;
-    font-weight: 300;
     text-decoration: none;
     &:hover {
       color: #0c37ff;
@@ -95,9 +97,8 @@ header {
       margin-right: 55px;
       text-decoration: none;
       color: #000000;
-      font-family: "PF Agora Sans Pro", sans-serif;
+      font-family: "PF Agora Sans Pro, Light", sans-serif;
       font-size: 20px;
-      font-weight: 300;
       &:hover {
         color: #0c37ff;
         transition: 0.8s;
@@ -127,17 +128,19 @@ header {
 
 .delivery {
   color: #ffffff;
-  font-family: "PF Agora Sans Pro", sans-serif;
-  font-weight: 900;
+  font-family: "PF Agora Sans Pro, Black", sans-serif;
   &__health-food {
-    font-size: 28px;
+    font-size: 34px;
+    line-height: 34px;
     text-align: center;
     padding-right: 10px;
-    margin-top: 91px;
+    margin-top: 61px;
+    margin-bottom: 20px;
   }
   &__change-your-food {
-    width: 942px;
+    width: 1042px;
     height: 130px;
+    font-family: "PF Agora Sans Pro, Black", sans-serif;
     font-size: 60px;
     margin: 0 auto;
     text-align: center;
@@ -159,46 +162,70 @@ header {
   border-radius: 50%;
   background-color: #0177c8;
   float: right;
-  margin-top: -43px;
-  margin-right: 473px;
+  margin-right: 24.6%; /*473px;*/
+  margin-top: -30px;
   &__with-sale {
-    padding-top: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 413px;
+    height: 136px;
+    padding-top: 120px;
     color: #ffffff;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Light", sans-serif;
     line-height: 36px;
     font-size: 34px;
-    font-weight: 300;
     text-align: center;
   }
   &__description {
+    display: block;
     height: 80px;
-    width: 413px;
+    width: 415px;
     color: #ffffff;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
     line-height: 36px;
     font-size: 20px;
-    font-weight: 700;
     text-align: center;
-    margin-left: 34px;
-    margin-top: -20px;
+    margin: 0 auto;
+    padding-top: 60px;
   }
-  &__price {
-    width: 150px;
+  &__price-old {
+    display: inline-block;
+    width: 170px;
     height: 48px;
     color: #ffffff;
-    font-family: "PF Agora Sans Pro", sans-serif;
-    font-size: 35px;
-    font-weight: 900;
+    font-family: "PF Agora Sans Pro, Black", sans-serif;
+    font-size: 40px;
     padding-left: 10px;
-    margin-left: 30px;
-    margin-top: -15px;
-    display: inline-block;
+    float: left;
+    background: url("../images/price-bg.svg") 100%, no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 82px;
   }
-  &__crossout-line {
+  &__price {
+    display: inline-block;
+    width: 170px;
+    height: 48px;
+    color: #ffffff;
+    font-family: "PF Agora Sans Pro, Black", sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 70px;
+
+    float: left;
+    //margin: 0 auto;
+    //padding-top: 70px;
+    //display: inline-block;
+    //z-index: 1;
+
+  }
+  /*&__crossout-line {
     background: url("../images/price-bg.svg") 80%, no-repeat;
     background-size: cover;
     margin-left: 70px;
-  }
+    position: relative;
+    padding-top: 60px;
+  }*/
   &__leave-request {
     width: 201px;
     height: 51px;
@@ -209,11 +236,11 @@ header {
     margin-top: 44px;
     text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
     color: #823400;
-    font-family: "PF Agora Sans Pro", sans-serif;
+    font-family: "PF Agora Sans Pro, Bold", sans-serif;
     font-size: 20px;
-    font-weight: 700;
     border: none;
     border-bottom: 2px solid #823400;
+    outline: none;
     &:hover {
       background-image: linear-gradient(#ff9945, #f41500);
       color: white;
@@ -235,19 +262,38 @@ header {
   width: 100%;
   height: 143px;
   background-color: #01b389;
-  margin-top: 104px;
-  border-top: 3px ridge #8CDDCA;
-  border-bottom: 3px groove #00765A;
+  margin-top: 124px;
+  box-shadow: 0px 11px 14px -9px #ffffff inset,
+              0px -12px 14px -9px #000000 inset;
+
+  //box-shadow: 0 0 10px #ffffff inset;
+  /*border-top: 3px ridge #8CDDCA;
+  border-bottom: 3px groove #00765A;*/
   z-index: 1;
   position: relative;
 }
+.food-program-container-bottom-border {
+  display: inline-block;
+  min-width: 540px;
+  width: 100%;
+  height: 14px;
+  margin-top: 267px;
+  background-color: #fdff05;
+  box-shadow: 0px -12px 14px -9px #000000 inset;
+  z-index: 1;
+  position: relative;
+}
+//.food-program-container-shadow {
+//  box-shadow: 0px -12px 14px -9px #000000 inset;
+//}
 
 .food-program-topic {
   color: #ffffff;
-  font-family: "Myriad Pro", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
+  font-family: "Myriad Pro, Bold", sans-serif;
+  font-size: 60px;
+  margin: 0 auto;
   text-align: center;
+  padding-top: 30px;
 }
 
 @media all and (max-width: 1192px) {

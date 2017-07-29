@@ -17,12 +17,14 @@
     list-style-type: none;
     float: right;
     padding-right: 20px; }
+  .footer-menu__link-animation li {
+    width: 160px;
+    height: auto; }
   .footer-menu__link-animation li a {
     text-decoration: none;
     color: #838383;
-    font-family: "PF Agora Sans Pro", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
+    font-family: "PF Agora Sans Pro, Light", sans-serif;
+    font-size: 13px;
     line-height: 27px; }
     .footer-menu__link-animation li a:hover {
       color: #f9c220;

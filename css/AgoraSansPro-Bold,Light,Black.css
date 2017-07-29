@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: "PF Agora Sans Pro, Bold";
+    src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot");
+    src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProBold/AgoraSansProBold.woff") format("woff"),
+    url("../fonts/AgoraSansProBold/AgoraSansProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "PF Agora Sans Pro, Light";
+    src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot");
+    src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProLight/AgoraSansProLight.woff") format("woff"),
+    url("../fonts/AgoraSansProLight/AgoraSansProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "PF Agora Sans Pro, Black";
+    src: url("../fonts/AgoraSansProBlack/AgoraSansProBlack.eot");
+    src: url("../fonts/AgoraSansProBlack/AgoraSansProBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AgoraSansProBlack/AgoraSansProBlack.woff") format("woff"),
+    url("../fonts/AgoraSansProBlack/AgoraSansProBlack.ttf") format("truetype");
+    font-weight: 900;
+}

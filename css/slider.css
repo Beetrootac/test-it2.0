@@ -1,0 +1,184 @@
+.programs {
+  max-width: 100vw;
+  min-width: 480px;
+  max-height: 1153px;
+  min-height: 540px;
+  margin: 0 auto; }
+  .programs__accordion {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 540px;
+    height: 100vh; }
+  .programs__li {
+    display: block;
+    width: 15%;
+    max-height: 1153px;
+    min-height: 540px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1.2s; }
+  .programs__li:nth-child(1) {
+    width: 66%;
+    background: #cecece url("../images/main-woman.png") 0% no-repeat;
+    background-size: auto 100%; }
+  .programs__lost-weight-topic {
+    display: block;
+    width: 800px;
+    height: 52px;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #0177c8;
+    transform: rotate(-90deg);
+    margin-left: -360px;
+    margin-top: 510px; }
+  .programs__li:nth-child(2) {
+    width: 6%;
+    background: url("../images/s22.jpg") 0% no-repeat, radial-gradient(circle farthest-side at 20% 50%, #ededed, #c2c2c2);
+    background-size: auto 100%; }
+  .programs__diet-topic {
+    color: white;
+    display: block;
+    width: 1153px;
+    height: 52px;
+    transform: rotate(-90deg);
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 345px;
+    margin-left: -520px; }
+  .programs__li:nth-child(3) {
+    width: 28%;
+    background: #969696 url("../images/s333.jpg") 0% no-repeat;
+    background-size: auto 100%; }
+  .programs__sport-topic {
+    display: block;
+    color: #ffffff;
+    width: 850px;
+    height: 52px;
+    transform: rotate(-90deg);
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: -350px;
+    margin-top: 480px; }
+  @media all and (max-width: 1366px) {
+    .programs__lost-weight-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -530px; }
+    .programs__diet-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -530px; }
+    .programs__sport-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -530px; } }
+  .programs__li:hover {
+    width: 100%;
+    transition: all 0.8s; }
+  .programs__li:nth-child(1) {
+    width: 66%; }
+  .programs__accordion:hover .active {
+    width: 6%; }
+  .programs__li:nth-child(1):hover {
+    width: 66%; }
+  .programs__table-container {
+    display: block;
+    max-width: 700px;
+    min-width: 300px;
+    max-height: 1144px;
+    min-height: 540px;
+    margin-top: -540px;
+    margin-left: 500px; }
+  .programs__table-header {
+    display: block;
+    width: 580px;
+    height: 42px;
+    color: #000000;
+    font-family: "Myriad Pro, Bold", sans-serif;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 62px;
+    padding-bottom: 81px; }
+  .programs__table {
+    display: block;
+    width: 310px;
+    max-width: 585px;
+    height: 80px;
+    font-family: "Myriad Pro, Regular", sans-serif;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    /*tr {
+      border-bottom: 2px solid red;
+    }*/ }
+    .programs__table td {
+      max-width: 198px;
+      min-width: 100px;
+      height: 37px;
+      border: solid 2px transparent; }
+    .programs__table td:nth-child(2) {
+      border-left: 3px solid #000000;
+      border-right: 3px solid #000000;
+      padding: 0; }
+  .programs__table-borders {
+    border-bottom: 3px solid black; }
+  .programs__weight-loss-declaration {
+    display: block;
+    width: 620px;
+    height: 67px;
+    color: #000000;
+    font-family: "Myriad Pro, Italic", sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  @media all and (max-width: 540px) {
+    .programs__table {
+      width: 303px;
+      float: none;
+      margin-left: 150px; }
+    .programs__weight-loss-declaration {
+      width: 400px;
+      height: auto;
+      font-size: 16px; } }
+  .programs__buttons-container {
+    display: block;
+    width: 470px;
+    height: 52px;
+    margin: 0 auto; }
+  .programs__info-button {
+    width: 201px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #f47521;
+    border: none;
+    border-bottom: 2px solid #823400;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 209, 179, 0.75);
+    color: #823400;
+    font-family: "Myriad Pro, Regular", sans-serif;
+    font-size: 20px;
+    outline: none; }
+    .programs__info-button:first-child {
+      margin-right: 19px; }
+    .programs__info-button:hover {
+      background-image: linear-gradient(#ff9945, #f41500);
+      color: white;
+      transition: 0.9s; }
+  @media all and (max-width: 540px) {
+    .programs__buttons-container {
+      width: 303px;
+      float: none;
+      margin-left: 150px; }
+    .programs__info-button {
+      width: 150px; } }
