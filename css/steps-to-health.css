@@ -1,5 +1,4 @@
 .contact-us {
-  clear: both;
   display: block;
   min-width: 540px;
   width: 100%;
@@ -48,8 +47,7 @@
       transition: 0.9s; }
   @media all and (max-width: 540px) {
     .contact-us__make-a-step {
-      font-size: 20px;
-      margin-left: -50px; }
+      font-size: 20px; }
     .contact-us__submit-request {
       width: 450px;
       height: auto;
@@ -60,9 +58,20 @@
   clear: both;
   display: block;
   height: 584px;
-  max-height: 1000px;
   min-width: 540px;
-  max-width: 100%; }
+  max-width: 100%;
+  /* @media all and (max-width: 540px) {
+    &__topic {
+      width: 300px;
+      text-align: left;
+      font-size: 28px;
+      padding-top: 0;
+      margin-left: 90px;
+    }
+    &__all-steps {
+      margin-left: -70px;
+    }
+  }*/ }
   .steps-to-health__topic {
     display: block;
     width: 1240px;
@@ -78,15 +87,6 @@
     flex-wrap: wrap;
     min-width: 540px;
     padding-top: 120px; }
-  @media all and (max-width: 540px) {
-    .steps-to-health__topic {
-      width: 300px;
-      text-align: left;
-      font-size: 28px;
-      padding-top: 0;
-      margin-left: 90px; }
-    .steps-to-health__all-steps {
-      margin-left: -70px; } }
   .steps-to-health__steps-container {
     display: block;
     float: left;
@@ -116,3 +116,34 @@
     text-align: center; }
   .steps-to-health__indent-text {
     padding-top: 40px; }
+
+@media all and (max-width: 1919px) {
+  .steps-to-health {
+    height: auto;
+    padding-bottom: 10px; }
+    .steps-to-health__topic {
+      max-width: 980px;
+      font-size: 48px;
+      padding-top: 30px; } }
+
+@media all and (max-width: 1040px) {
+  .steps-to-health__all-steps {
+    padding-top: 30px; }
+  .steps-to-health__topic {
+    max-width: 570px;
+    font-size: 28px; } }
+
+@media all and (max-width: 900px) {
+  .contact-us__make-a-step {
+    font-size: 25px;
+    padding-top: 23px; }
+  .contact-us__submit-request {
+    font-size: 16px;
+    padding-top: 24px; }
+  .contact-us__button-block {
+    padding-top: 40px; }
+  .steps-to-health__topic {
+    font-size: 20px;
+    width: 420px; }
+  .steps-to-health__step-border {
+    margin: 0; } }

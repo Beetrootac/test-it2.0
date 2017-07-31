@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .programs {
   max-width: 100vw;
   min-width: 480px;
@@ -26,14 +27,14 @@
   .programs__lost-weight-topic {
     display: block;
     width: 800px;
-    height: 52px;
+    height: 60px;
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     color: #0177c8;
     transform: rotate(-90deg);
-    margin-left: -360px;
-    margin-top: 510px; }
+    margin-left: -350px;
+    margin-top: 480px; }
   .programs__li:nth-child(2) {
     width: 6%;
     background: url("../images/s22.jpg") 0% no-repeat, radial-gradient(circle farthest-side at 20% 50%, #ededed, #c2c2c2);
@@ -42,12 +43,12 @@
     color: white;
     display: block;
     width: 1153px;
-    height: 52px;
+    height: 60px;
     transform: rotate(-90deg);
     font-family: "Myriad Pro, Bold", sans-serif;
-    font-size: 48px;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-top: 345px;
+    margin-top: 506px;
     margin-left: -520px; }
   .programs__li:nth-child(3) {
     width: 28%;
@@ -57,29 +58,13 @@
     display: block;
     color: #ffffff;
     width: 850px;
-    height: 52px;
+    height: 60px;
     transform: rotate(-90deg);
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    margin-left: -350px;
-    margin-top: 480px; }
-  @media all and (max-width: 1366px) {
-    .programs__lost-weight-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px; }
-    .programs__diet-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px; }
-    .programs__sport-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px; } }
+    margin-left: -370px;
+    margin-top: 660px; }
   .programs__li:hover {
     width: 100%;
     transition: all 0.8s; }
@@ -95,8 +80,8 @@
     min-width: 300px;
     max-height: 1144px;
     min-height: 540px;
-    margin-top: -540px;
-    margin-left: 500px; }
+    margin-top: -400px;
+    margin-left: 570px; }
   .programs__table-header {
     display: block;
     width: 580px;
@@ -110,12 +95,12 @@
     padding-bottom: 81px; }
   .programs__table {
     display: block;
-    width: 310px;
-    max-width: 585px;
-    height: 80px;
+    min-width: 310px;
+    width: 585px;
+    height: 88px;
     font-family: "Myriad Pro, Regular", sans-serif;
     font-size: 20px;
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     border-radius: 14px;
     border-collapse: collapse;
     text-align: center;
@@ -124,9 +109,9 @@
       border-bottom: 2px solid red;
     }*/ }
     .programs__table td {
-      max-width: 198px;
+      width: 195px;
       min-width: 100px;
-      height: 37px;
+      height: 41px;
       border: solid 2px transparent; }
     .programs__table td:nth-child(2) {
       border-left: 3px solid #000000;
@@ -141,21 +126,15 @@
     color: #000000;
     font-family: "Myriad Pro, Italic", sans-serif;
     font-size: 20px;
-    text-align: center; }
-  @media all and (max-width: 540px) {
-    .programs__table {
-      width: 303px;
-      float: none;
-      margin-left: 150px; }
-    .programs__weight-loss-declaration {
-      width: 400px;
-      height: auto;
-      font-size: 16px; } }
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px; }
   .programs__buttons-container {
     display: block;
     width: 470px;
     height: 52px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 40px; }
   .programs__info-button {
     width: 201px;
     height: 51px;
@@ -175,10 +154,68 @@
       background-image: linear-gradient(#ff9945, #f41500);
       color: white;
       transition: 0.9s; }
-  @media all and (max-width: 540px) {
-    .programs__buttons-container {
-      width: 303px;
-      float: none;
-      margin-left: 150px; }
-    .programs__info-button {
-      width: 150px; } }
+  @media all and (max-width: 1919px) {
+    .programs {
+      /*для устройств с шириной окна менее 1920px */ }
+      .programs__lost-weight-topic {
+        width: 1153px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: -540px;
+        padding-left: 10px; }
+      .programs__diet-topic {
+        width: 1153px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: -540px;
+        padding-left: 10px; }
+      .programs__sport-topic {
+        width: 1153px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: -540px;
+        padding-left: 10px; }
+      .programs__table-container {
+        margin-top: -50px;
+        margin-left: 100px; }
+      .programs__table-header {
+        width: 380px;
+        height: 32px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 50px; }
+      .programs__table {
+        width: 400px; }
+      .programs__weight-loss-declaration {
+        width: 450px;
+        font-size: 13px; }
+      .programs__buttons-container {
+        padding-top: 0;
+        padding-left: 20px; } }
+  @media all and (max-width: 900px) {
+    .programs__li:hover {
+      width: 100%; }
+    .programs__li:nth-child(1) {
+      width: 90%; }
+    .programs__li {
+      width: 5%; }
+    .programs__li:nth-child(3) {
+      width: 5%; }
+      .programs__li:nth-child(3):hover {
+        width: 90%; }
+    .programs__accordion:hover .active {
+      width: 5%; }
+    .programs__li:nth-child(1):hover {
+      width: 90%; }
+    .programs__lost-weight-topic {
+      font-size: 25px;
+      margin-left: -550px; }
+    .programs__diet-topic {
+      font-size: 25px;
+      margin-left: -550px; }
+    .programs__sport-topic {
+      font-size: 25px;
+      margin-left: -550px; } }
+  @media all and (max-width: 640px) {
+    .programs__table-container {
+      margin-left: 25px; } }

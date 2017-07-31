@@ -48,11 +48,6 @@
     float: left;
     border-right: 1px solid #838383;
     height: 286px; }
-  @media all and (max-width: 540px) {
-    .footer-menu__articles-container {
-      border-right: none;
-      width: 111px;
-      height: 100px; } }
   .footer-menu__social {
     display: block;
     float: left;
@@ -75,3 +70,14 @@
     display: block;
     transform: rotate(320deg);
     transition: 1s; }
+  @media all and (max-width: 660px) {
+    .footer-menu__articles-container {
+      border-right: none;
+      width: 111px;
+      height: 100px; } }
+  @media all and (max-width: 560px) {
+    .footer-menu__articles-container {
+      border-top: 1px solid #838383;
+      margin-top: 150px;
+      position: absolute;
+      margin-left: -140px; } }

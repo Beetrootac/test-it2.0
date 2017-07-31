@@ -2,7 +2,8 @@
   display: block;
   min-width: 450px;
   width: 100%;
-  height: 51px;
+  min-height: 51px;
+  height: auto;
   background-color: #ffffff; }
   .contact__logo {
     width: 287px;
@@ -14,9 +15,6 @@
     .contact__logo {
       margin-right: 1%;
       margin-left: 3%; } }
-  @media all and (max-width: 810px) {
-    .contact__logo {
-      display: none; } }
   .contact__contact-number {
     width: 340px;
     height: 27px;
@@ -43,6 +41,18 @@
     .contact__button-back-call:hover {
       background-color: #00ff80;
       transition: 0.8s; }
+  @media all and (max-width: 830px) {
+    .contact__logo {
+      margin-left: 20%;
+      margin-right: 40%; }
+    .contact__contact-number {
+      display: block;
+      height: 51px;
+      text-align: center;
+      margin-left: 20%; } }
+  @media all and (max-width: 650px) {
+    .contact__button-back-call {
+      margin-left: 35%; } }
 
 header {
   display: block;
@@ -116,6 +126,12 @@ header {
     font-size: 60px;
     margin: 0 auto;
     text-align: center; }
+  @media all and (max-width: 1040px) {
+    .delivery__health-food {
+      font-size: 28px; }
+    .delivery__change-your-food {
+      font-size: 40px;
+      width: 640px; } }
   @media all and (max-width: 540px) {
     .delivery__change-your-food {
       width: 520px;
@@ -132,14 +148,7 @@ header {
   float: right;
   margin-right: 24.6%;
   /*473px;*/
-  margin-top: -30px;
-  /*&__crossout-line {
-    background: url("../images/price-bg.svg") 80%, no-repeat;
-    background-size: cover;
-    margin-left: 70px;
-    position: relative;
-    padding-top: 60px;
-  }*/ }
+  margin-top: -30px; }
   .offer__with-sale {
     display: block;
     margin: 0 auto;
@@ -205,11 +214,6 @@ header {
       color: white;
       transition: 0.9s; }
 
-@media all and (max-width: 540px) {
-  .offer {
-    float: none;
-    margin-left: 8px; } }
-
 .food-program-container {
   display: inline-block;
   min-width: 540px;
@@ -218,8 +222,6 @@ header {
   background-color: #01b389;
   margin-top: 124px;
   box-shadow: 0px 11px 14px -9px #ffffff inset, 0px -12px 14px -9px #000000 inset;
-  /*border-top: 3px ridge #8CDDCA;
-  border-bottom: 3px groove #00765A;*/
   z-index: 1;
   position: relative; }
 
@@ -242,8 +244,15 @@ header {
   text-align: center;
   padding-top: 30px; }
 
-@media all and (max-width: 1192px) {
+@media all and (max-width: 1190px) {
   .food-program-container {
-    margin-top: 40px; }
+    height: 100px; }
   .food-program-topic {
     font-size: 28px; } }
+
+@media all and (max-width: 588px) {
+  .offer {
+    float: none;
+    margin-left: 8px; }
+  .food-program-topic {
+    padding-top: 15px; } }

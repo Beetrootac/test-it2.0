@@ -37,14 +37,14 @@
   &__lost-weight-topic {
     display: block;
     width: 800px;
-    height: 52px;
+    height: 60px;
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     color: #0177c8;
     transform: rotate(-90deg);
-    margin-left: -360px;
-    margin-top: 510px;
+    margin-left: -350px;
+    margin-top: 480px;
   }
   &__li:nth-child(2) {
     width: 6%;
@@ -57,12 +57,12 @@
     color: white;
     display: block;
     width: 1153px;
-    height: 52px;
+    height: 60px;
     transform: rotate(-90deg);
     font-family: "Myriad Pro, Bold", sans-serif;
-    font-size: 48px;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-top: 345px;
+    margin-top: 506px;
     margin-left: -520px;
   }
   &__li:nth-child(3) {
@@ -74,47 +74,23 @@
     display: block;
     color: #ffffff;
     width: 850px;
-    height: 52px;
+    height: 60px;
     transform: rotate(-90deg);
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     //position: relative;
-    margin-left: -350px;
-    margin-top: 480px;
+    margin-left: -370px;
+    margin-top: 660px;
   }
-  @media all and (max-width: 1366px) {
-    &__lost-weight-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px;
-    }
-    &__diet-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px;
-    }
-    &__sport-topic {
-      width: 1153px;
-      font-size: 30px;
-      margin-top: 10px;
-      margin-left: -530px;
-    }
-
-  }
-
   &__li:hover {
     width: 100%;
-    //-webkit-box-shadow: 1px 3px 15px #e6000e;
     transition: all 0.8s;
 
   }
 
   &__li:nth-child(1) {
     width: 66%;
-    //background-image: linear-gradient(270deg, #D2D3D5,#d1d2d4 60%);
   }
 
   &__accordion:hover .active {
@@ -132,8 +108,8 @@
     min-width: 300px;
     max-height: 1144px;
     min-height: 540px;
-    margin-top: -540px;
-    margin-left: 500px;
+    margin-top: -400px;
+    margin-left: 570px;
   }
   &__table-header {
     display: block;
@@ -155,13 +131,13 @@
     display: block;
     //clear: both;
     //float: right;
-    width: 310px;
-    max-width: 585px;
-    height: 80px;
+    min-width: 310px;
+    width: 585px;
+    height: 88px;
     font-family: "Myriad Pro, Regular", sans-serif;
     font-size: 20px;
-    border: 2px solid #000000;
-      border-radius: 14px;
+    border: 3px solid #000000;
+    border-radius: 14px;
     border-collapse: collapse;
     text-align: center;
     margin: 0 auto;
@@ -169,9 +145,9 @@
       border-bottom: 2px solid red;
     }*/
     td {
-      max-width: 198px;
+      width: 195px;
       min-width: 100px;
-      height: 37px;
+      height: 41px;
       border: solid 2px transparent;
       //padding: 0;
     }
@@ -181,7 +157,7 @@
       padding: 0;
     }
   }
-  &__table-borders  {
+  &__table-borders {
     border-bottom: 3px solid black;
   }
 
@@ -195,30 +171,18 @@
     font-family: "Myriad Pro, Italic", sans-serif;
     font-size: 20px;
     text-align: center;
-    //margin: 0 auto;
-    //padding: 20px 0;
+    margin: 0 auto;
+    padding-top: 10px;
     //position: relative;
     //z-index: 1;
   }
-  @media all and (max-width: 540px) {
-    &__table {
-      width: 303px;
-      float: none;
-      margin-left: 150px;
-    }
-    &__weight-loss-declaration {
-      width: 400px;
-      height: auto;
-      font-size: 16px;
-      //float: none;
-      //margin-left: 100px;
-    }
-  }
+
   &__buttons-container {
     display: block;
     width: 470px;
     height: 52px;
     margin: 0 auto;
+    padding-top: 40px;
     //float: right;
     //clear: both;
     //position: relative;
@@ -247,19 +211,95 @@
       transition: 0.9s;
     }
   }
-  @media all and (max-width: 540px) {
-    &__buttons-container {
-      width: 303px;
-      float: none;
-      margin-left: 150px;
+
+  @media all and (max-width: 1919px) { /*для устройств с шириной окна менее 1920px */
+    &__lost-weight-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -540px;
+      padding-left: 10px;
     }
-    &__info-button {
-      width: 150px;
+    &__diet-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -540px;
+      padding-left: 10px;
+    }
+    &__sport-topic {
+      width: 1153px;
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: -540px;
+      padding-left: 10px;
+    }
+    &__table-container {
+      margin-top: -50px;
+      margin-left: 100px;
+    }
+    &__table-header {
+      width: 380px;
+      height: 32px;
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    &__table {
+      width: 400px;
+    }
+    &__weight-loss-declaration {
+      width: 450px;
+      font-size: 13px;
+    }
+    &__buttons-container {
+      padding-top: 0;
+      padding-left: 20px;
     }
   }
-  @media all and (max-width: 1366px) {
-    &__table-container {
 
+  @media all and (max-width: 900px) {
+    &__li:hover {
+      width: 100%;
     }
+    &__li:nth-child(1) {
+      width: 90%;
+    }
+    &__li {
+      width: 5%;
+    }
+    &__li:nth-child(3) {
+      width: 5%;
+      &:hover {
+        width: 90%;
+      }
+    }
+
+    &__accordion:hover .active {
+      width: 5%;
+    }
+
+    &__li:nth-child(1):hover {
+      width: 90%;
+    }
+
+    &__lost-weight-topic {
+      font-size: 25px;
+      margin-left: -550px;
+    }
+    &__diet-topic {
+      font-size: 25px;
+      margin-left: -550px;
+    }
+    &__sport-topic {
+      font-size: 25px;
+      margin-left: -550px;
+    }
+  }
+  @media all and (max-width: 640px) {
+    &__table-container {
+      margin-left: 25px;
+    }
+
   }
 }
