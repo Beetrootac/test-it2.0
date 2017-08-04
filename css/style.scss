@@ -9,6 +9,11 @@
 *:after {
   box-sizing: border-box;
 }
+@media all and (max-width: 660px) {
+  body {
+    overflow-x:hidden;
+  }
+}
 
 
 

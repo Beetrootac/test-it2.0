@@ -34,7 +34,7 @@
     color: #0177c8;
     transform: rotate(-90deg);
     margin-left: -350px;
-    margin-top: 480px; }
+    margin-top: 620px; }
   .programs__li:nth-child(2) {
     width: 6%;
     background: url("../images/s22.jpg") 0% no-repeat, radial-gradient(circle farthest-side at 20% 50%, #ededed, #c2c2c2);
@@ -48,7 +48,7 @@
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    margin-top: 506px;
+    margin-top: 470px;
     margin-left: -520px; }
   .programs__li:nth-child(3) {
     width: 28%;
@@ -64,7 +64,7 @@
     font-size: 60px;
     text-transform: uppercase;
     margin-left: -370px;
-    margin-top: 660px; }
+    margin-top: 590px; }
   .programs__li:hover {
     width: 100%;
     transition: all 0.8s; }
@@ -80,8 +80,8 @@
     min-width: 300px;
     max-height: 1144px;
     min-height: 540px;
-    margin-top: -400px;
-    margin-left: 570px; }
+    margin-top: -470px;
+    margin-left: 520px; }
   .programs__table-header {
     display: block;
     width: 580px;
@@ -104,10 +104,7 @@
     border-radius: 14px;
     border-collapse: collapse;
     text-align: center;
-    margin: 0 auto;
-    /*tr {
-      border-bottom: 2px solid red;
-    }*/ }
+    margin: 0 auto; }
     .programs__table td {
       width: 195px;
       min-width: 100px;
@@ -154,7 +151,7 @@
       background-image: linear-gradient(#ff9945, #f41500);
       color: white;
       transition: 0.9s; }
-  @media all and (max-width: 1919px) {
+  @media all and (max-width: 1900px) {
     .programs {
       /*для устройств с шириной окна менее 1920px */ }
       .programs__lost-weight-topic {
@@ -176,8 +173,8 @@
         margin-left: -540px;
         padding-left: 10px; }
       .programs__table-container {
-        margin-top: -50px;
-        margin-left: 100px; }
+        margin-top: -20px;
+        margin-left: 300px; }
       .programs__table-header {
         width: 380px;
         height: 32px;
@@ -192,6 +189,17 @@
       .programs__buttons-container {
         padding-top: 0;
         padding-left: 20px; } }
+  @media (max-width: 1650px) {
+    .programs__table-container {
+      margin-top: 200px;
+      margin-left: 300px; } }
+  @media (max-width: 1400px) {
+    .programs__table-container {
+      margin-top: -50px;
+      margin-left: 350px; } }
+  @media all and (max-width: 1250px) {
+    .programs__table-container {
+      margin-left: 100px; } }
   @media all and (max-width: 900px) {
     .programs__li:hover {
       width: 100%; }
@@ -216,6 +224,25 @@
     .programs__sport-topic {
       font-size: 25px;
       margin-left: -550px; } }
-  @media all and (max-width: 640px) {
+  @media all and (max-width: 660px) {
     .programs__table-container {
-      margin-left: 25px; } }
+      margin-left: 20px;
+      width: 380px; }
+    .programs__table-header {
+      width: 350px;
+      height: 26px;
+      font-size: 22px;
+      padding-top: 20px;
+      padding-bottom: 50px; }
+    .programs__table {
+      width: 330px; }
+    .programs__weight-loss-declaration {
+      width: 350px;
+      font-size: 11px; }
+    .programs__buttons-container {
+      width: 350px;
+      padding-top: 0;
+      padding-left: 20px; }
+    .programs__info-button {
+      width: 140px;
+      height: 30px; } }

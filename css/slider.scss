@@ -11,7 +11,6 @@
     margin: 0 auto;
     padding: 0;
     min-height: 540px;
-    //height: 1153px;
     height: 100vh;
   }
 
@@ -20,17 +19,13 @@
     width: 15%;
     max-height: 1153px;
     min-height: 540px;
-    //background-color: #9b9b9b;
     overflow: hidden;
-    //padding: 1px 1px 0;
     cursor: pointer;
-    //-webkit-box-shadow: 1px 3px 15px #e68628;
     transition: all 1.2s;
   }
 
   &__li:nth-child(1) {
     width: 66%;
-    //background-color: #CECECE;
     background: #cecece url("../images/main-woman.png") 0% no-repeat;
     background-size: auto 100%;
   }
@@ -44,14 +39,12 @@
     color: #0177c8;
     transform: rotate(-90deg);
     margin-left: -350px;
-    margin-top: 480px;
+    margin-top: 620px;
   }
   &__li:nth-child(2) {
     width: 6%;
     background: url('../images/s22.jpg') 0% no-repeat, radial-gradient(circle farthest-side at 20% 50%, #ededed, #c2c2c2);
-    //url('../images/s22.jpg')0% no-repeat;
     background-size: auto 100%;
-    //background-image: radial-gradient(circle,#ffffff 60%, #d2d2d2 80%);
   }
   &__diet-topic {
     color: white;
@@ -62,7 +55,7 @@
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    margin-top: 506px;
+    margin-top: 470px;
     margin-left: -520px;
   }
   &__li:nth-child(3) {
@@ -79,9 +72,8 @@
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-    //position: relative;
     margin-left: -370px;
-    margin-top: 660px;
+    margin-top: 590px;
   }
   &__li:hover {
     width: 100%;
@@ -102,14 +94,12 @@
   }
   &__table-container {
     display: block;
-    //padding-right: 70px;
-    //float: right;
     max-width: 700px;
     min-width: 300px;
     max-height: 1144px;
     min-height: 540px;
-    margin-top: -400px;
-    margin-left: 570px;
+    margin-top: -470px;
+    margin-left: 520px;
   }
   &__table-header {
     display: block;
@@ -119,18 +109,13 @@
     font-family: "Myriad Pro, Bold", sans-serif;
     font-size: 40px;
     margin: 0 auto;
-    //clear: right;
     text-align: center;
-    //padding-left: 80px;
     padding-top: 62px;
     padding-bottom: 81px;
-    //padding: 60px 0 40px 80px ;
   }
 
   &__table {
     display: block;
-    //clear: both;
-    //float: right;
     min-width: 310px;
     width: 585px;
     height: 88px;
@@ -141,15 +126,12 @@
     border-collapse: collapse;
     text-align: center;
     margin: 0 auto;
-    /*tr {
-      border-bottom: 2px solid red;
-    }*/
+
     td {
       width: 195px;
       min-width: 100px;
       height: 41px;
       border: solid 2px transparent;
-      //padding: 0;
     }
     td:nth-child(2) {
       border-left: 3px solid #000000;
@@ -162,8 +144,6 @@
   }
 
   &__weight-loss-declaration {
-    //clear: both;
-    //float: right;
     display: block;
     width: 620px;
     height: 67px;
@@ -173,8 +153,6 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 10px;
-    //position: relative;
-    //z-index: 1;
   }
 
   &__buttons-container {
@@ -183,10 +161,6 @@
     height: 52px;
     margin: 0 auto;
     padding-top: 40px;
-    //float: right;
-    //clear: both;
-    //position: relative;
-    //z-index: 1;
   }
   &__info-button {
     width: 201px;
@@ -203,7 +177,6 @@
     outline: none;
     &:first-child {
       margin-right: 19px;
-      //margin-left: -35px;
     }
     &:hover {
       background-image: linear-gradient(#ff9945, #f41500);
@@ -212,7 +185,7 @@
     }
   }
 
-  @media all and (max-width: 1919px) { /*для устройств с шириной окна менее 1920px */
+  @media all and (max-width: 1900px) { /*для устройств с шириной окна менее 1920px */
     &__lost-weight-topic {
       width: 1153px;
       font-size: 30px;
@@ -235,8 +208,8 @@
       padding-left: 10px;
     }
     &__table-container {
-      margin-top: -50px;
-      margin-left: 100px;
+      margin-top: -20px;
+      margin-left: 300px;
     }
     &__table-header {
       width: 380px;
@@ -257,7 +230,23 @@
       padding-left: 20px;
     }
   }
-
+  @media (max-width: 1650px) {
+    &__table-container {
+      margin-top: 200px;
+      margin-left: 300px;
+    }
+  }
+  @media (max-width: 1400px) {
+    &__table-container {
+      margin-top: -50px;
+      margin-left: 350px;
+    }
+  }
+  @media all and (max-width: 1250px) {
+    &__table-container {
+      margin-left: 100px;
+    }
+  }
   @media all and (max-width: 900px) {
     &__li:hover {
       width: 100%;
@@ -296,10 +285,33 @@
       margin-left: -550px;
     }
   }
-  @media all and (max-width: 640px) {
+  @media all and (max-width: 660px) {
     &__table-container {
-      margin-left: 25px;
+      margin-left: 20px;
+      width: 380px;
     }
-
+    &__table-header {
+      width: 350px;
+      height: 26px;
+      font-size: 22px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    &__table {
+      width: 330px;
+    }
+    &__weight-loss-declaration {
+      width: 350px;
+      font-size: 11px;
+    }
+    &__buttons-container {
+      width: 350px;
+      padding-top: 0;
+      padding-left: 20px;
+    }
+    &__info-button {
+      width: 140px;
+      height: 30px;
+    }
   }
 }

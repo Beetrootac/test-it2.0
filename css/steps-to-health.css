@@ -1,6 +1,6 @@
 .contact-us {
   display: block;
-  min-width: 540px;
+  min-width: 480px;
   width: 100%;
   height: 230px;
   background-color: #01b389;
@@ -45,33 +45,13 @@
       background-image: linear-gradient(#ff9945, #f41500);
       color: white;
       transition: 0.9s; }
-  @media all and (max-width: 540px) {
-    .contact-us__make-a-step {
-      font-size: 20px; }
-    .contact-us__submit-request {
-      width: 450px;
-      height: auto;
-      text-align: center;
-      font-size: 16px; } }
 
 .steps-to-health {
   clear: both;
   display: block;
   height: 584px;
-  min-width: 540px;
-  max-width: 100%;
-  /* @media all and (max-width: 540px) {
-    &__topic {
-      width: 300px;
-      text-align: left;
-      font-size: 28px;
-      padding-top: 0;
-      margin-left: 90px;
-    }
-    &__all-steps {
-      margin-left: -70px;
-    }
-  }*/ }
+  min-width: 480px;
+  max-width: 100%; }
   .steps-to-health__topic {
     display: block;
     width: 1240px;
@@ -84,8 +64,9 @@
   .steps-to-health__all-steps {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    min-width: 540px;
+    min-width: 460px;
     padding-top: 120px; }
   .steps-to-health__steps-container {
     display: block;
@@ -147,3 +128,24 @@
     width: 420px; }
   .steps-to-health__step-border {
     margin: 0; } }
+
+@media all and (max-width: 540px) {
+  .contact-us {
+    height: 180px; }
+    .contact-us__make-a-step {
+      font-size: 20px;
+      width: 380px;
+      margin-left: 40px; }
+    .contact-us__submit-request {
+      width: 380px;
+      height: auto;
+      text-align: center;
+      font-size: 16px;
+      margin-left: 40px; }
+    .contact-us__button-block {
+      width: 460px;
+      padding-top: 10px; }
+  .steps-to-health__topic {
+    margin-left: 0; }
+  .steps-to-health__all-steps {
+    padding-top: 30px; } }
